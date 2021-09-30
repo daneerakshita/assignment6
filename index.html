@@ -1,0 +1,109 @@
+<HTML>
+    <head>
+        <title>T-shirt Company</title>
+        <meta charset="UTF-8">
+    </head>
+    <link rel= "stylesheet" href= "mystyle.css" >
+
+    <body bgcolor="grey">
+
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1>!CUSTOM TSHIRTS! </h1>
+                <p>Come customize your T-shirt with us</p>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">New Collection</a></li>
+                <li><a href="#contact">Order now</a></li>
+                <li><a href="#about">Know About US</a></li>
+            </ul>
+        </div>
+          
+        <div class= "deets">
+
+            
+        
+            <fieldset>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="column">
+                          <img src=".\images\a1.jpg" alt="Snow" style="width:100%">
+                          <div class="panel-footer">Shop Women's Clothing</div>
+                        </div>
+                        <div class="column">
+                          <img src=".\images\b2.jpg" alt="Forest" style="width:100%">
+                          <div class="panel-footer">Shop Men's Clothing</div>
+                        </div>
+                        <div class="column">
+                          <img src=".\images\c3.jpg" alt="Mountains" style="width:100%">
+                          <div class="panel-footer">Shop all Clothing</div>
+                        </div>
+                      </div>
+                      
+
+                    
+                </div>
+
+                
+                   
+                
+            </fieldset>
+
+            <fieldset>
+            <div class="shirtcolour">
+                <legend>Customize the shirt: </legend>
+                <form>
+                
+                    <label for="favcolor">Choose the colour of your T-shirt: </label> <br>
+                    <input type="color" id="favcolor" name="favcolor"> <br><br>
+
+                    <label for="favcolor"> How many shirts do you want? </label> <br>
+                    <input type="text" id="numb" name="numb"> 
+                    <p id="demo"></p><br><br>
+                    
+                    <label for="tag">Tagline: </label><br>
+                    <input type="text" id="tag" name="tag"><br>
+                    <br>
+                    <label for="size">Choose your size:</label><br>
+                    <select id="size" name="size">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    </select> <br> <br>
+    
+                    
+                    
+                </form>
+            </div>    
+
+            </fieldset>
+
+            <fieldset>
+            <div class="deliver">
+                <legend><font color="white" size: "25" >Delivery Details:</legend>
+
+                <form id="frm1">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <p id="demo1"></p><br>
+                    <label for="add">Address:</label><br>
+                    <input type="text" id="add" name="add">
+                </form>
+            </div>
+            </fieldset>
+        
+            <button type="button" onclick= "myFunction(); stringLengthCheck(fname); receipt(fname,size,add)">PLACE ORDER</button>
+
+        </div>
+
+        <script src="myscript.js"></script>
+
+    </body>
+</HTML>
+            

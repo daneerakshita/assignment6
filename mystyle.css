@@ -1,0 +1,94 @@
+.navbar {
+    margin-bottom: 10px; 
+    border-radius: 0;
+    width: 100%;
+}
+    
+    
+.offer {
+    text-align: center; color: grey;
+    margin-bottom: 30px;
+}
+    
+    
+    /* Remove the jumbotron's default bottom margin */
+.jumbotron { 
+    background-color: rgba(50, 214, 255, 0.582);
+    text-align: center;
+}
+    
+    
+    /* Add a gray background color and some padding to the footer */ 
+.footer {
+    background-color: #f2f2f2; padding: 25px;
+}
+
+.deets{
+    font: white;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom:25 px ;
+    padding-bottom:0;
+    overflow: hidden;
+    background-color: #333;
+    display:inline-block;
+}
+  
+li {
+    float: left;
+}
+     
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 110px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.panel-footer{
+    font-size: 25px;
+    text-align: center;
+    font: white;
+
+
+}
+
+.shirtcolor{
+
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.button{
+    size: 50px;
+    align-self: center;
+}
+
+#demo {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+#demo1 {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
